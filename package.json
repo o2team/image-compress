@@ -1,0 +1,39 @@
+{
+  "name": "image-compress",
+  "version": "0.0.1",
+  "description": "图片压缩",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint && ava",
+    "eslint": "eslint lib/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o2team/image-compress.git"
+  },
+  "keywords": [
+    "image compress"
+  ],
+  "author": "luckyadam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o2team/image-compress/issues"
+  },
+  "homepage": "https://github.com/o2team/image-compress#readme",
+  "dependencies": {
+    "fs-extra": "^3.0.1",
+    "gifsicle-bin-wrapper": "^0.0.1",
+    "mozjpeg-bin-wrapper": "^0.0.1",
+    "pngquant-bin-wrapper": "^0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "tempy": "^0.1.0"
+  }
+}
