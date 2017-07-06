@@ -1,6 +1,6 @@
 {
   "name": "image-compress",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "图片压缩",
   "main": "index.js",
   "scripts": {
