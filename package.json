@@ -1,6 +1,6 @@
 {
   "name": "image-compress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "图片压缩",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,14 @@
   "keywords": [
     "image compress"
   ],
-  "author": "luckyadam",
+  "author": {
+    "name": "luckyadam",
+    "email": "weitaozsh@gmail.com",
+    "url": "github.com/luckyadam"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/o2team/image-compress/issues"
